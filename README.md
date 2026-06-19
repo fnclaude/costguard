@@ -2,11 +2,11 @@
 
 **Know what your AI CI costs. Before the invoice.**
 
-[![GitHub Action](https://img.shields.io/badge/action-v0.1.0-blue?logo=github)](https://github.com/fnrhombus/fncostguard)
+[![GitHub Action](https://img.shields.io/badge/action-v0.1.0-blue?logo=github)](https://github.com/fnclaude/costguard)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ```yaml
-- uses: fnrhombus/fncostguard@v1
+- uses: fnclaude/costguard@v1
   id: guard-start
   with:
     action: start
@@ -17,7 +17,7 @@
   with:
     anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
 
-- uses: fnrhombus/fncostguard@v1
+- uses: fnclaude/costguard@v1
   with:
     action: stop
     anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -45,7 +45,7 @@ If the estimated cost exceeds your `max_cost`, the workflow fails with a clear e
 If the Anthropic usage API isn't available, you can provide token counts manually:
 
 ```yaml
-- uses: fnrhombus/fncostguard@v1
+- uses: fnclaude/costguard@v1
   with:
     action: stop
     anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}

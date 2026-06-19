@@ -16,12 +16,12 @@
   "author": "fnrhombus",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fnrhombus/fncostguard"
+    "url": "https://github.com/fnclaude/costguard"
   },
   "bugs": {
-    "url": "https://github.com/fnrhombus/fncostguard/issues"
+    "url": "https://github.com/fnclaude/costguard/issues"
   },
-  "homepage": "https://github.com/fnrhombus/fncostguard#readme",
+  "homepage": "https://github.com/fnclaude/costguard#readme",
   "type": "module",
   "main": "./dist/index.js",
   "scripts": {
